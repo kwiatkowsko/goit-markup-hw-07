@@ -1,0 +1,46 @@
+.sign-in {
+  padding-top: 72px;
+  margin-left: 70px;
+
+  &__white-txt {
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--main-white);
+  }
+  &__form {
+    display: flex;
+  }
+
+  &__label {
+    margin-right: 12px;
+  }
+  &__label-settings {
+    background-color: var(--slogan-background);
+    outline: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    width: 356px;
+    min-height: 50px;
+    border: none;
+    padding-left: 16px;
+
+    color: var(--main-white);
+  }
+  &__button {
+    display: flex;
+    align-items: center;
+    width: 200px;
+  }
+  &__button-txt {
+    padding-left: 42px;
+    padding-right: 24px;
+  }
+  &__svg {
+    width: 24px;
+    height: 24px;
+  }
+}

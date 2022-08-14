@@ -1,0 +1,21 @@
+.lorem-ipsum {
+  ul {
+    display: flex;
+    gap: 30px;
+  }
+  &__txt {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--gery-text);
+  }
+  &__item {
+    background-color: var(--grey-background);
+    border-radius: 4px;
+    min-height: 120px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
