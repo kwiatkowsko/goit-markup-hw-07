@@ -24,10 +24,9 @@
 
     color: var(--gery-text);
   }
-&__social-links {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 32px 0 32px;
+  &__social-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px 0 32px;
+  }
 }
-}
-

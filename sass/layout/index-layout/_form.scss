@@ -38,6 +38,10 @@
     bottom: 11px;
     left: 12px;
   }
+  &--button-position {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .form__space {
@@ -64,15 +68,9 @@
   &--comment {
     padding: 12px 16px;
     resize: none;
-    
+
     &::placeholder {
       color: rgba(117, 117, 117, 0.5);
     }
   }
-}
-
-
-.form-button-position {
-  display: flex;
-  justify-content: center;
 }
