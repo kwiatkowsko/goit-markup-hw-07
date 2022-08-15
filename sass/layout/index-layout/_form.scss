@@ -38,10 +38,6 @@
     bottom: 11px;
     left: 12px;
   }
-  &--button-position {
-    display: flex;
-    justify-content: center;
-  }
 
   &__space {
     width: 448px;
@@ -72,5 +68,9 @@
         color: rgba(117, 117, 117, 0.5);
       }
     }
+  }
+  &--button-position {
+    display: flex;
+    justify-content: center;
   }
 }

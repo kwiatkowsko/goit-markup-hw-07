@@ -183,8 +183,7 @@ h6 {
   fill: crimson;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.close-btn-svg {
+.close-btn__svg {
   width: 14px;
   height: 14px;
 }
@@ -359,7 +358,6 @@ address a:hover, address a:focus {
   fill: var(--webstudio-blue);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .navigation--active {
   position: relative;
 }
@@ -457,7 +455,6 @@ address a:hover, address a:focus {
   bottom: 11px;
   left: 12px;
 }
-
 .form__space {
   width: 448px;
   min-height: 40px;
@@ -483,8 +480,7 @@ address a:hover, address a:focus {
 .form__space--comment::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
-.form-button-position {
+.form--button-position {
   display: flex;
   justify-content: center;
 }
